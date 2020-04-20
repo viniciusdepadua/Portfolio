@@ -17,9 +17,24 @@
 .photographs{
     padding-bottom: 30px;
 }
-.photo-background{
-    background: antiquewhite;
-}
 #myNav{
-    background: white;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.toFooter{
+    border-bottom: darkgray solid 1px;
+}
+#Footer{
+    text-align: center;
+    font-family: "JetBrains Mono";
+    color: gray;
+
+}
+.followMe{
+    float: left;
+    padding-bottom: 10px;
+}
+.icons{
+    float: right;
+    padding-bottom: 10px;
 }
