@@ -1,0 +1,25 @@
+
+.gradient-background
+{
+    background-image: linear-gradient(90deg, #d174ce, #95B6D1);
+}
+.nice-styling
+{
+    text-align: justify;
+    font-family: "JetBrains Mono";
+    color: rgba(0,0,0, .9);
+}
+.description{
+    text-align: justify;
+    font-family: "JetBrains Mono";
+    color: #343330;
+}
+.photographs{
+    padding-bottom: 30px;
+}
+.photo-background{
+    background: antiquewhite;
+}
+#myNav{
+    background: white;
+}

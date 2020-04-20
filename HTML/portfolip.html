@@ -2,21 +2,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="portfolio.css" type="text/css" rel="stylesheet">
-    <title>Portfolio</title>
+    <link href="../CSS/main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <title>Vinicius - Image Gallery</title>
 </head>
 <body>
-<h1>Vinicius Araujo's Photography Portfolio</h1>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MyGallery</a>
+        </div>
 
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0085.JPG" class="top left" alt="Victoria1">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0133.JPG" class="top middle" alt="Vic2">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0171.JPG" class="top right" alt="Vic3">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0191.JPG" class="mid left" alt="Bolha">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0211.JPG" class="mid middle" alt="Plane1">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0186.JPG" class="mid right" alt="Vic4">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0216.JPG" class="bottom left" alt="Plane2">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0231.JPG" class="bottom middle" alt="H8">
-<img src="/home/padawan/MySites/PicturesPortfolio/Pictures/DSC_0233.JPG" class="bottom right" alt="H8Room">
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About Me</a></li>
+                <li><a href="$">Projects</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="jumbotron gradient-background">
+   <div class="container">
+       <h1 class="nice-styling">My image gallery!</h1>
+       <p class="description">When i'm on my free time, i do like taking photographs. Mostly, as you can see, of my girlfriend Victoria, and here are my favorites (and hers)</p>
+   </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0085.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0133.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0171.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0191.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0211.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0186.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0216.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0231.JPG"></div>
+        <div class="col-md-4 col-sm-6 photographs"><img class="img-responsive" src="../Pictures/DSC_0233.JPG"></div>
+    </div>
+</div>
 </body>
 </html>
+
